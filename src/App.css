@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+body{
+	padding: 2%;
+}
+.span{ display: none;}
+.homes {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+display: none;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.homes div {
+	width: 280px;
+	background: white;
+	border: 1px solid #CCCCCC;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	box-sizing: border-box;
+	padding: 1%;
+	margin-top: -100px;
+	margin-left: -140px;
+	height: 200px;
+}
+
+.homes div p {
+	height: 30px;
+	line-height: 30px;
+}
+.li a{width: 335px;  display: block;
+text-align: center;
+float: left;}
+.li button{ margin-right: 52px;}
